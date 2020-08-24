@@ -1,0 +1,140 @@
+
+ body {
+  background-color: whitesmoke;
+}
+
+
+#main-box {
+
+  margin-top: 2%;
+  /* background-color:gainsboro; */
+}
+
+/* #main-box {
+  background-color: white;
+} */
+
+h1 {
+  color: darkturquoise;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+h2{
+  color: darkturquoise;
+}
+#main-bio,
+#weather-image{
+  float:left;
+  height:50%;
+  width: 50%;
+  /* background-color:gainsboro; */
+}
+
+.image-width{
+  float:left;
+  height:50%;
+  width: 50%;
+}
+
+#figure {
+  position: relative;
+}
+
+#rightcol{
+    background:white;
+}
+
+.dataframe{
+
+  margin-top: 2%;
+  position: relative;
+  margin-inline-end: auto;
+}
+/* #img-row11{
+  background-color: #fefbd8;
+} */
+/* #rbcolor{
+  background-color: #fefbd8;
+} */
+.image-space{
+    margin:auto;
+}
+#latitude-color{
+    /* background-color:darkturquoise; */
+    font-size: 30px;
+  background-color: rgb(19, 175, 175);
+  margin-left: 3%;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+  color: whitesmoke;
+  max-height: max-content;
+}
+#latitude-color1{
+  /* background-color:darkturquoise; */
+  font-size: 30px;
+background-color:  grey;
+margin-left: 3%;
+font-family: Georgia, 'Times New Roman', Times, serif;
+
+color: whitesmoke;
+max-height: max-content;
+}
+
+/* Adding media queries to show the drop-down, and hide the navbar when the screen is smaller than 768pixels */
+
+@media (max-width: 768px) {
+  .navbar {
+      background-color:  rgb(19, 175, 175); 
+      color: white;
+  }
+  .navbar .navbar-nav .nav-link {
+      color:white;
+  }
+  .navbar .navbar-nav .nav-link:hover {
+      color:black;
+  }
+  .navbar-light span.navbar-toggler-icon {
+      /* background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E"); */
+      color: white;
+    }
+    #nav-select {
+      visibility: visible;
+    }
+    
+}
+  
+/* ---------------------------------------------------------------------------------- */
+
+/* .nav-color{
+  background-color:white;
+} */
+
+
+/* .col-md-2{
+  background-color: grey;
+} */
+.col-md-12 {
+  background-color: white;
+}
+.col-lg-5 {
+  background-color: whitesmoke;
+}
+.col-md-12 img{
+  width: 200px;
+  height: 200px;
+}
+.container {
+  background-color:white;
+  /* padding-top: 2%; */
+  margin-top: 2%;
+  margin-left:10%;
+}
+
+#pic{
+  padding:20px;
+}
+#container-margin{
+  margin:20px;
+  
+
+}
